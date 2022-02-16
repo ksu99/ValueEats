@@ -1,0 +1,23 @@
+.diner-voucher-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .diner-voucher-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    width: 80%;
+  }
+
+  .voucher-box {
+    width: 100%;
+  }
+  .tab-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }

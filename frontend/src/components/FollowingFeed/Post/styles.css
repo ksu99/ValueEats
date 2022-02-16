@@ -1,0 +1,114 @@
+.post-container {
+  min-width: 90vw;
+  max-width: 90vw;
+  min-height: 170px;
+}
+.post-content-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.post-voucher-button {
+  width: 250px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.post-voucher-button-text {
+  font-size: 15px !important;
+}
+.post-internal-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 50px 2.5%;
+  border-left: 1px solid rgb(0, 0, 0, 0.25);
+}
+
+.post-buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.post-date {
+  position: absolute;
+  bottom: 10px;
+  font-size: 14px;
+  right: 10px;
+  color: grey;
+}
+
+.post-profile-content {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 0 2.5%;
+  align-items: center;
+}
+.post-profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+.post-profile-picture:hover {
+  cursor: pointer;
+}
+.post-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 150vh;
+  height: fit-content;
+  background-color: white;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20px;
+}
+.post-header {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.post-header:hover {
+  cursor: pointer;
+}
+.post-content-list {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  max-height: 327px;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+}
+.post-content-list::-webkit-scrollbar {
+  width: 0;
+}
+.post-content {
+  padding: 10px;
+}
+
+.post-details-field {
+  font-size: 22px;
+}
+.post-media-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.post-media-picture {
+  margin-top: 20px;
+  width: 300px;
+}
+.post-details-info-text {
+  font-size: 15px;
+}
+.post-details-info {
+  display: flex;
+  flex-direction: column;
+}
+.eatery-post-icon:hover {
+  opacity: 50%;
+}

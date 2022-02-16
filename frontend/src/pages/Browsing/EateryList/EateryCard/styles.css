@@ -1,0 +1,86 @@
+.eatery-card {
+  width: 600px;
+  height: 100%;
+  background-color: rgb(255, 255, 255) !important;
+  position: relative;
+}
+.eatery-card-container {
+  height: 400px;
+}
+.eatery-title:hover {
+  cursor: pointer;
+  color: green;
+  transition: color 0.5s ease-in;
+}
+.eatery-media {
+  height: 200px;
+}
+.eatery-media:hover {
+  opacity: 75%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.eatery-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.eatery-card-description {
+  display: flex;
+}
+.eatery-title {
+  width: fit-content !important;
+  font-weight: 520;
+  font-size: 30px !important;
+  margin-bottom: 0px !important;
+}
+.eatery-address {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: -20px;
+}
+.eatery-title-review {
+  width: fit-content;
+}
+.rating-reviews {
+  font-size: 18px !important;
+  padding-top: 1px;
+  padding-right: 8px;
+}
+.number-reviews {
+  font-size: 18px !important;
+  padding-left: 8px;
+}
+.eatery-review {
+  display: flex;
+  flex-direction: row;
+}
+.eatery-description {
+  padding-top: 5px;
+  padding-left: 10px;
+  width: 65%;
+  height: 100%;
+  font-size: 19px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  /* padding-left: px; */
+}
+.eatery-voucher-button {
+  color: green !important;
+}
+.eatery-voucher-button:hover {
+  opacity: 80%;
+}
+.eatery-review-button {
+  color: green !important;
+}
+.eatery-review-button:hover {
+  opacity: 80%;
+}
+
+.eatery-card-buttons {
+  position: absolute;
+  bottom: 0px;
+}

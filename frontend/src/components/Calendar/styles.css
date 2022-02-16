@@ -1,0 +1,40 @@
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 50px;
+}
+
+.day-button {
+  height: 48px;
+  width: 100%;
+}
+
+.day-cell {
+  width: 100%;
+}
+
+.week-button {
+  height: 48px;
+  width: 14.28%;
+}
+.week-cell {
+  width: 100%;
+}
+.month-button {
+  width: 14.28%;
+}
+.month-cell {
+  width: 100%;
+}
+.voucher-appointment {
+  max-height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.voucher-appointment::-webkit-scrollbar {
+  width: 0;
+}

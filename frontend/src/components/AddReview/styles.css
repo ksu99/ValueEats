@@ -1,0 +1,64 @@
+.add-reviews-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.add-reviews-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.addreview-hover {
+  opacity: 1;
+}
+
+.addreview-hover :hover {
+  color: orange;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.add-reviews-user {
+  display: flex;
+  align-items: center;
+}
+
+.add-reviews-name {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.add-reviews-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-reviews-rating:hover {
+  color: orange;
+}
+
+.add-reviews-input textarea {
+  font-family: inherit;
+  font-size: 16px;
+  resize: none;
+  width: calc(100% - 40px);
+  margin-left: 20px;
+  height: 50px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.add-reviews-footer {
+  position: relative;
+  display: flex;
+  bottom: 0px;
+  right: 20px;
+  justify-content: flex-end;
+}

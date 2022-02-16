@@ -1,0 +1,26 @@
+.search_date {
+  display: flex;
+  flex-direction: column;
+}
+.search_date > button {
+    text-transform: inherit !important;
+    background-color: #05bc0d;
+    color: white;
+  }
+
+.search_date > button:hover {
+    background-color: white;
+    color: #ff7779;
+}
+
+.rdrDayToday .rdrDayNumber span:after {
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 18px;
+    height: 2px;
+    border-radius: 2px;
+    background: green !important;
+}

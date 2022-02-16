@@ -1,0 +1,79 @@
+.topnav {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.25);
+  min-width: 900px;
+}
+
+.top-nav-tab-button:hover {
+  background-color: rgb(223, 248, 223);
+  transition: background-color 0.3s ease-in-out;
+}
+.topnav__icon {
+  object-fit: contain;
+  height: 70px;
+  margin: 20px;
+}
+
+.topnav__center {
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 50%;
+  margin-top: -25px;
+  position: absolute;
+}
+
+.right_buttons {
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+  justify-content: center;
+  width: 240px !important;
+}
+
+.right {
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  right: 0px;
+}
+.right_loggedIn {
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-right {
+  margin-right: 15px;
+}
+
+.top-search-bar {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  min-width: 350px;
+}
+
+.search-date-container > button {
+  text-transform: inherit !important;
+  background-color: #05bc0d;
+  color: white;
+}
+
+.tab-container {
+  min-width: none !important;
+  background-color: #05bc0d;
+}
+
+.menu-login-list {
+  z-index: 5 !important;
+}

@@ -1,0 +1,63 @@
+.voucher-field-container {
+  width: 250px;
+}
+.voucher-description-container {
+  width: 550px;
+}
+.voucher-title-container {
+  width: 550px;
+}
+.field-label {
+  font-size: 28px !important;
+  margin-top: 10px !important;
+  font-weight: bold !important;
+}
+.routine-label {
+  font-weight: bold !important;
+  font-size: 21px !important;
+  margin-top: 13px;
+}
+.voucher-title-label {
+  font-weight: bold !important;
+  font-size: 21px !important;
+}
+.routine-radio {
+  height: 85px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.field-input {
+  margin-top: 10px !important;
+  font-size: 20px !important;
+  height: 60px !important;
+}
+.description-input {
+  margin-top: 30px !important;
+  line-height: 0.8cm !important;
+  font-size: 20px !important;
+  height: 90px !important;
+}
+
+.voucher-title-input {
+  height: 80px !important;
+  font-size: 40px !important;
+}
+
+.radio-for-routine {
+  color: green !important;
+}
+
+.radio-option {
+  font-size: 20px;
+}
+.voucher-form-button {
+  display: flex;
+  align-self: flex-end;
+  width: 200px;
+  height: 50px;
+  margin-right: 100px !important;
+}
+
+.input-adornment {
+  margin-top: 10px;
+}

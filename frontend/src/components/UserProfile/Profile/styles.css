@@ -1,0 +1,30 @@
+.user-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 50vw;
+  height: 70%;
+  background: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  top: 20%;
+}
+.user-fields {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 90%;
+}
+.details-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.edit-button {
+  width: 200px;
+  height: 50px;
+}

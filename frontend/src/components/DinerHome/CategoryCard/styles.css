@@ -1,0 +1,12 @@
+.category-card {
+  width: 40vh !important;
+  border-radius: 10px !important;
+}
+.category-card:hover {
+  opacity: 75%;
+  color: rgb(17, 163, 17);
+  transition: color 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+.category-media {
+  height: 40vh;
+}

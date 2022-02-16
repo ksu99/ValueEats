@@ -1,0 +1,53 @@
+.all-reviews-box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.all-reviews-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  width: 80%;
+}
+
+.reviews-restaurant {
+  font-size: 36px;
+  width: 80%;
+}
+
+.reviews-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 20px 0;
+}
+
+.reviews-add {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.reviews-sort {
+  display: flex;
+  align-items: center;
+  color: grey;
+  font-size: 20px;
+}
+
+.reviews-dropdown {
+  display: flex;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+
+.reviews-add:hover {
+  opacity: 0.6;
+  color: green;
+}

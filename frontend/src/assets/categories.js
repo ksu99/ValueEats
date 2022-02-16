@@ -1,0 +1,142 @@
+const categoryList = [
+  {
+    label: "Chinese",
+    src: "https://bit.ly/3xI450r",
+    isCuisine: true,
+    value: "chinese",
+  },
+  {
+    label: "Australian",
+    src: "https://bit.ly/3xEsNPk",
+    isCuisine: true,
+    value: "australian",
+  },
+  {
+    label: "Vietnamese",
+    src: "https://bit.ly/3wE9AvG",
+    isCuisine: true,
+    value: "vietnamese",
+  },
+  {
+    label: "Dessert",
+    src: "https://bit.ly/3r9QdcX",
+    isCuisine: false,
+    value: "dessert",
+  },
+  {
+    label: "Thai",
+    src: "https://bit.ly/2U6GMPn",
+    isCuisine: true,
+    value: "thai",
+  },
+  {
+    label: "Malaysian",
+    src: "https://bit.ly/3hIGo2J",
+    isCuisine: true,
+    value: "malaysian",
+  },
+  {
+    label: "Dumplings",
+    src: "https://bit.ly/3i02rk0",
+    isCuisine: false,
+    value: "dumplings",
+  },
+  {
+    label: "Cafe",
+    src: "https://bit.ly/3eiYplM",
+    isCuisine: false,
+    value: "cafe",
+  },
+  {
+    label: "Drinks",
+    src: "https://bit.ly/3r9lhtt",
+    isCuisine: false,
+    value: "drinks",
+  },
+  {
+    label: "Indian",
+    src: "https://bit.ly/3i6ooyb",
+    isCuisine: true,
+    value: "indian",
+  },
+  {
+    label: "Italian",
+    src: "https://bit.ly/36Anh4o",
+    isCuisine: true,
+    value: "italian",
+  },
+  {
+    label: "Japanese",
+    src: "https://bit.ly/3yPgcsG",
+    isCuisine: true,
+    value: "japanese",
+  },
+  {
+    label: "Korean",
+    src: "https://bit.ly/2UOLhyc",
+    isCuisine: true,
+    value: "korean",
+  },
+  {
+    label: "KBBQ",
+    src: "https://bit.ly/3kgrke4",
+    isCuisine: false,
+    value: "kbbq",
+  },
+  {
+    label: "Bingsu",
+    src: "https://bit.ly/3hCDiwO",
+    isCuisine: false,
+    value: "bingsu",
+  },
+  {
+    label: "Malatang",
+    src: "https://bit.ly/3hyEuBr",
+    isCuisine: false,
+    value: "malatang",
+  },
+  {
+    label: "Singaporean",
+    src: "https://bit.ly/3r6SCVL",
+    isCuisine: true,
+    value: "singaporean",
+  },
+  {
+    label: "Burger",
+    src: "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_21/2870431/190524-classic-american-cheeseburger-ew-207p.jpg",
+    isCuisine: false,
+    value: "burger",
+  },
+  {
+    label: "Western",
+    src: "https://img.etimg.com/thumb/msid-68335708,width-650,imgsize-349699,,resizemode-4,quality-100/mughlai-spread.jpg",
+    isCuisine: true,
+    value: "western",
+  },
+  {
+    label: "BBQ",
+    src: "https://blog.kitchenwarehouse.com.au/wp-content/uploads/Aussie-BBQ-Grill-300x300-min.jpg",
+    isCuisine: false,
+    value: "bbq",
+  },
+  {
+    label: "Pizza",
+    src: "https://img.delicious.com.au/qRrzAHSr/del/2019/03/marinara-pizza-102752-2.jpg",
+    isCuisine: false,
+    value: "pizza",
+  },
+  {
+    label: "Beef",
+    src: "https://dzm1od92zrjbp.cloudfront.net/wp-content/uploads/2020/11/Selection_999944.jpg",
+    isCuisine: false,
+    value: "beef",
+  },
+  {
+    label: "Chicken",
+    src: "https://www.simplyrecipes.com/thmb/bjWJ7_s2XLPsbAvx-tgDnKabBlg=/1333x1333/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2020__08__Beer-Can-Chicken-LEAD-3b-2fd02d7702ab45f1b71bac0dcf581a6e.jpg",
+    isCuisine: false,
+    value: "chicken",
+  },
+];
+
+export default categoryList;

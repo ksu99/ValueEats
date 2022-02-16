@@ -1,0 +1,121 @@
+.user-profile {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: calc(100vh - 120px);
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.profile-sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 0px;
+  width: 300px;
+  border-right: 1px solid rgb(0, 0, 0, 0.25);
+  height: calc(100% - 120px);
+}
+
+.profile-edit {
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+  margin-top: 20px;
+}
+
+.profile-avatar {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: solid;
+  border-width: 3px;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  width: 100%;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.profile-nametag {
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 300px;
+  min-height: calc(100vh - 120px);
+  max-height: calc(100vh - 120px);
+  width: calc(100vw - 300px);
+  padding-top: 50px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.profile-container::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.profile-dropdown {
+  position: fixed;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ccffeb;
+  z-index: 2;
+  height: 50px;
+  width: 100%;
+  top: 100px;
+}
+
+.profile-dropdown div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33.3%;
+}
+
+/* when the browser width is 700px or less */
+@media screen and (max-width: 700px) {
+  .profile-sidebar {
+    display: none;
+  }
+  .profile-container {
+    width: 100vw;
+    margin-top: 50px;
+    max-height: calc(100vh - 180px);
+    padding-bottom: 50px;
+    margin-left: 0px;
+  }
+  .profile-dropdown {
+    display: flex;
+  }
+}
+@media screen and (max-height: 500px) {
+  .profile-container {
+    width: 100vw;
+    margin-top: 50px;
+    max-height: calc(100vh - 180px);
+    padding-bottom: 50px;
+    margin-left: 30px;
+  }
+  .profile-dropdown {
+    display: flex;
+  }
+  .profile-sidebar {
+    display: none;
+  }
+}
